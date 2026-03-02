@@ -1,0 +1,879 @@
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:72:2: warning: If memory allocation fails, then there is a possible null pointer dereference: r [nullPointerOutOfMemory]
+ r[0] =  (         N+h)*CosLat*cos(lon);
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:63:29: note: Assuming allocation function fails
+ double* r = (double*)calloc(3, sizeof(double));
+                            ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:63:14: note: Assignment 'r=(double*)calloc(3,sizeof(double))', assigned value is 0
+ double* r = (double*)calloc(3, sizeof(double));
+             ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:72:2: note: Null pointer dereference
+ r[0] =  (         N+h)*CosLat*cos(lon);
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:73:2: warning: If memory allocation fails, then there is a possible null pointer dereference: r [nullPointerOutOfMemory]
+ r[1] =  (         N+h)*CosLat*sin(lon);
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:63:29: note: Assuming allocation function fails
+ double* r = (double*)calloc(3, sizeof(double));
+                            ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:63:14: note: Assignment 'r=(double*)calloc(3,sizeof(double))', assigned value is 0
+ double* r = (double*)calloc(3, sizeof(double));
+             ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:73:2: note: Null pointer dereference
+ r[1] =  (         N+h)*CosLat*sin(lon);
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:74:2: warning: If memory allocation fails, then there is a possible null pointer dereference: r [nullPointerOutOfMemory]
+ r[2] =  ((1.0-e2)*N+h)*SinLat;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:63:29: note: Assuming allocation function fails
+ double* r = (double*)calloc(3, sizeof(double));
+                            ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:63:14: note: Assignment 'r=(double*)calloc(3,sizeof(double))', assigned value is 0
+ double* r = (double*)calloc(3, sizeof(double));
+             ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:74:2: note: Null pointer dereference
+ r[2] =  ((1.0-e2)*N+h)*SinLat;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:350:3: warning: If memory allocation fails, then there is a possible null pointer dereference: *dAds [nullPointerOutOfMemory]
+ (*dAds)[0] = s[1]/(rho*rho);
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:347:16: note: Assuming allocation function fails
+ *dAds = calloc(3,sizeof(double));
+               ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:347:16: note: Assignment '*dAds=calloc(3,sizeof(double))', assigned value is 0
+ *dAds = calloc(3,sizeof(double));
+               ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:350:3: note: Null pointer dereference
+ (*dAds)[0] = s[1]/(rho*rho);
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:523:3: warning: If memory allocation fails, then there is a possible null pointer dereference: col0 [nullPointerOutOfMemory]
+  col0[j] = PC[0][j];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:519:23: note: Assuming allocation function fails
+ double* col0 = calloc(2285,sizeof(double));
+                      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:519:23: note: Assignment 'col0=calloc(2285,sizeof(double))', assigned value is 0
+ double* col0 = calloc(2285,sizeof(double));
+                      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:523:3: note: Null pointer dereference
+  col0[j] = PC[0][j];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:524:3: warning: If memory allocation fails, then there is a possible null pointer dereference: col1 [nullPointerOutOfMemory]
+  col1[j] = PC[1][j];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:520:23: note: Assuming allocation function fails
+ double* col1 = calloc(2285,sizeof(double));
+                      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:520:23: note: Assignment 'col1=calloc(2285,sizeof(double))', assigned value is 0
+ double* col1 = calloc(2285,sizeof(double));
+                      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:524:3: note: Null pointer dereference
+  col1[j] = PC[1][j];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:528:6: warning: If memory allocation fails, then there is a possible null pointer dereference: col0 [nullPointerOutOfMemory]
+  if(col0[i]<=JD && JD<=col1[i])
+     ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:519:23: note: Assuming allocation function fails
+ double* col0 = calloc(2285,sizeof(double));
+                      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:519:23: note: Assignment 'col0=calloc(2285,sizeof(double))', assigned value is 0
+ double* col0 = calloc(2285,sizeof(double));
+                      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:528:6: note: Null pointer dereference
+  if(col0[i]<=JD && JD<=col1[i])
+     ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:528:25: warning: If memory allocation fails, then there is a possible null pointer dereference: col1 [nullPointerOutOfMemory]
+  if(col0[i]<=JD && JD<=col1[i])
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:520:23: note: Assuming allocation function fails
+ double* col1 = calloc(2285,sizeof(double));
+                      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:520:23: note: Assignment 'col1=calloc(2285,sizeof(double))', assigned value is 0
+ double* col1 = calloc(2285,sizeof(double));
+                      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:528:25: note: Null pointer dereference
+  if(col0[i]<=JD && JD<=col1[i])
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:538:3: warning: If memory allocation fails, then there is a possible null pointer dereference: PCtemp [nullPointerOutOfMemory]
+  PCtemp[j] = PC[j][i];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:535:25: note: Assuming allocation function fails
+ double* PCtemp = calloc(1020,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:535:25: note: Assignment 'PCtemp=calloc(1020,sizeof(double))', assigned value is 0
+ double* PCtemp = calloc(1020,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:538:3: note: Null pointer dereference
+  PCtemp[j] = PC[j][i];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:540:14: warning: If memory allocation fails, then there is a possible null pointer dereference: PCtemp [nullPointerOutOfMemory]
+ double t1 = PCtemp[0]-2400000.5; // MJD al inicio del intervalo
+             ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:535:25: note: Assuming allocation function fails
+ double* PCtemp = calloc(1020,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:535:25: note: Assignment 'PCtemp=calloc(1020,sizeof(double))', assigned value is 0
+ double* PCtemp = calloc(1020,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:540:14: note: Null pointer dereference
+ double t1 = PCtemp[0]-2400000.5; // MJD al inicio del intervalo
+             ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1021:2: warning: If memory allocation fails, then there is a possible null pointer dereference: a_bf [nullPointerOutOfMemory]
+ a_bf[0] = ax;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1020:32: note: Assuming allocation function fails
+ double* a_bf = (double*)calloc(3,sizeof(double));
+                               ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1020:17: note: Assignment 'a_bf=(double*)calloc(3,sizeof(double))', assigned value is 0
+ double* a_bf = (double*)calloc(3,sizeof(double));
+                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1021:2: note: Null pointer dereference
+ a_bf[0] = ax;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1022:2: warning: If memory allocation fails, then there is a possible null pointer dereference: a_bf [nullPointerOutOfMemory]
+ a_bf[1] = ay;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1020:32: note: Assuming allocation function fails
+ double* a_bf = (double*)calloc(3,sizeof(double));
+                               ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1020:17: note: Assignment 'a_bf=(double*)calloc(3,sizeof(double))', assigned value is 0
+ double* a_bf = (double*)calloc(3,sizeof(double));
+                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1022:2: note: Null pointer dereference
+ a_bf[1] = ay;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1023:2: warning: If memory allocation fails, then there is a possible null pointer dereference: a_bf [nullPointerOutOfMemory]
+ a_bf[2] = az;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1020:32: note: Assuming allocation function fails
+ double* a_bf = (double*)calloc(3,sizeof(double));
+                               ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1020:17: note: Assignment 'a_bf=(double*)calloc(3,sizeof(double))', assigned value is 0
+ double* a_bf = (double*)calloc(3,sizeof(double));
+                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1023:2: note: Null pointer dereference
+ a_bf[2] = az;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1064:3: warning: If memory allocation fails, then there is a possible null pointer dereference: dr [nullPointerOutOfMemory]
+  dr[0] = 0.0;
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1054:21: note: Assuming allocation function fails
+ double* dr = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1054:21: note: Assignment 'dr=calloc(3,sizeof(double))', assigned value is 0
+ double* dr = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1064:3: note: Null pointer dereference
+  dr[0] = 0.0;
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1065:3: warning: If memory allocation fails, then there is a possible null pointer dereference: dr [nullPointerOutOfMemory]
+  dr[1] = 0.0;
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1054:21: note: Assuming allocation function fails
+ double* dr = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1054:21: note: Assignment 'dr=calloc(3,sizeof(double))', assigned value is 0
+ double* dr = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1065:3: note: Null pointer dereference
+  dr[1] = 0.0;
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1066:3: warning: If memory allocation fails, then there is a possible null pointer dereference: dr [nullPointerOutOfMemory]
+  dr[2] = 0.0;
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1054:21: note: Assuming allocation function fails
+ double* dr = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1054:21: note: Assignment 'dr=calloc(3,sizeof(double))', assigned value is 0
+ double* dr = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1066:3: note: Null pointer dereference
+  dr[2] = 0.0;
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1067:6: warning: If memory allocation fails, then there is a possible null pointer dereference: dr [nullPointerOutOfMemory]
+     dr[i] = d;
+     ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1054:21: note: Assuming allocation function fails
+ double* dr = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1054:21: note: Assignment 'dr=calloc(3,sizeof(double))', assigned value is 0
+ double* dr = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1067:6: note: Null pointer dereference
+     dr[i] = d;
+     ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1070:7: warning: If memory allocation fails, then there is a possible null pointer dereference: drsuma [nullPointerOutOfMemory]
+      drsuma[j] = r[j]+dr[j]/2.0;
+      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1055:25: note: Assuming allocation function fails
+ double* drsuma = calloc(3,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1055:25: note: Assignment 'drsuma=calloc(3,sizeof(double))', assigned value is 0
+ double* drsuma = calloc(3,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1070:7: note: Null pointer dereference
+      drsuma[j] = r[j]+dr[j]/2.0;
+      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1070:24: warning: If memory allocation fails, then there is a possible null pointer dereference: dr [nullPointerOutOfMemory]
+      drsuma[j] = r[j]+dr[j]/2.0;
+                       ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1054:21: note: Assuming allocation function fails
+ double* dr = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1054:21: note: Assignment 'dr=calloc(3,sizeof(double))', assigned value is 0
+ double* dr = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1070:24: note: Null pointer dereference
+      drsuma[j] = r[j]+dr[j]/2.0;
+                       ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1071:7: warning: If memory allocation fails, then there is a possible null pointer dereference: drresta [nullPointerOutOfMemory]
+      drresta[j] = r[j]-dr[j]/2.0;
+      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1056:26: note: Assuming allocation function fails
+ double* drresta = calloc(3,sizeof(double));
+                         ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1056:26: note: Assignment 'drresta=calloc(3,sizeof(double))', assigned value is 0
+ double* drresta = calloc(3,sizeof(double));
+                         ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1071:7: note: Null pointer dereference
+      drresta[j] = r[j]-dr[j]/2.0;
+      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1071:25: warning: If memory allocation fails, then there is a possible null pointer dereference: dr [nullPointerOutOfMemory]
+      drresta[j] = r[j]-dr[j]/2.0;
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1054:21: note: Assuming allocation function fails
+ double* dr = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1054:21: note: Assignment 'dr=calloc(3,sizeof(double))', assigned value is 0
+ double* dr = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1071:25: note: Null pointer dereference
+      drresta[j] = r[j]-dr[j]/2.0;
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1078:7: warning: If memory allocation fails, then there is a possible null pointer dereference: da [nullPointerOutOfMemory]
+      da[j] = a1[j] - a2[j];
+      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1059:21: note: Assuming allocation function fails
+ double* da = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1059:21: note: Assignment 'da=calloc(3,sizeof(double))', assigned value is 0
+ double* da = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1078:7: note: Null pointer dereference
+      da[j] = a1[j] - a2[j];
+      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1082:6: warning: If memory allocation fails, then there is a possible null pointer dereference: G [nullPointerOutOfMemory]
+     G[i] = producto_escalar(da, 3, 1.0/d);
+     ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1053:21: note: Assuming allocation function fails
+ double** G = calloc(3,sizeof(double*));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1053:21: note: Assignment 'G=calloc(3,sizeof(double*))', assigned value is 0
+ double** G = calloc(3,sizeof(double*));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1082:6: note: Null pointer dereference
+     G[i] = producto_escalar(da, 3, 1.0/d);
+     ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1197:3: warning: If memory allocation fails, then there is a possible null pointer dereference: ret [nullPointerOutOfMemory]
+  ret[j]=Y[j+3];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1194:22: note: Assuming allocation function fails
+ double* ret = calloc(6,sizeof(double));
+                     ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1194:22: note: Assignment 'ret=calloc(6,sizeof(double))', assigned value is 0
+ double* ret = calloc(6,sizeof(double));
+                     ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1197:3: note: Null pointer dereference
+  ret[j]=Y[j+3];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1198:3: warning: If memory allocation fails, then there is a possible null pointer dereference: ret [nullPointerOutOfMemory]
+  ret[j+3]=a[j];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1194:22: note: Assuming allocation function fails
+ double* ret = calloc(6,sizeof(double));
+                     ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1194:22: note: Assignment 'ret=calloc(6,sizeof(double))', assigned value is 0
+ double* ret = calloc(6,sizeof(double));
+                     ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\logica.c:1198:3: note: Null pointer dereference
+  ret[j+3]=a[j];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:120:9: error: Buffer is accessed out of bounds: line [bufferAccessOutOfBounds]
+  fgets(line, sizeof(line)+2, ptr);
+        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:178:2: warning: If memory allocation fails, then there is a possible null pointer dereference: Y0_apr [nullPointerOutOfMemory]
+ Y0_apr[0] = 6221397.62857869;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:177:25: note: Assuming allocation function fails
+ double* Y0_apr = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:177:25: note: Assignment 'Y0_apr=calloc(6,sizeof(double))', assigned value is 0
+ double* Y0_apr = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:178:2: note: Null pointer dereference
+ Y0_apr[0] = 6221397.62857869;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:179:2: warning: If memory allocation fails, then there is a possible null pointer dereference: Y0_apr [nullPointerOutOfMemory]
+ Y0_apr[1] = 2867713.77965741;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:177:25: note: Assuming allocation function fails
+ double* Y0_apr = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:177:25: note: Assignment 'Y0_apr=calloc(6,sizeof(double))', assigned value is 0
+ double* Y0_apr = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:179:2: note: Null pointer dereference
+ Y0_apr[1] = 2867713.77965741;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:180:2: warning: If memory allocation fails, then there is a possible null pointer dereference: Y0_apr [nullPointerOutOfMemory]
+ Y0_apr[2] = 3006155.9850995;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:177:25: note: Assuming allocation function fails
+ double* Y0_apr = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:177:25: note: Assignment 'Y0_apr=calloc(6,sizeof(double))', assigned value is 0
+ double* Y0_apr = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:180:2: note: Null pointer dereference
+ Y0_apr[2] = 3006155.9850995;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:181:2: warning: If memory allocation fails, then there is a possible null pointer dereference: Y0_apr [nullPointerOutOfMemory]
+ Y0_apr[3] = 4645.0472516175;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:177:25: note: Assuming allocation function fails
+ double* Y0_apr = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:177:25: note: Assignment 'Y0_apr=calloc(6,sizeof(double))', assigned value is 0
+ double* Y0_apr = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:181:2: note: Null pointer dereference
+ Y0_apr[3] = 4645.0472516175;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:182:2: warning: If memory allocation fails, then there is a possible null pointer dereference: Y0_apr [nullPointerOutOfMemory]
+ Y0_apr[4] = -2752.21591588182;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:177:25: note: Assuming allocation function fails
+ double* Y0_apr = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:177:25: note: Assignment 'Y0_apr=calloc(6,sizeof(double))', assigned value is 0
+ double* Y0_apr = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:182:2: note: Null pointer dereference
+ Y0_apr[4] = -2752.21591588182;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:183:2: warning: If memory allocation fails, then there is a possible null pointer dereference: Y0_apr [nullPointerOutOfMemory]
+ Y0_apr[5] = -7507.99940986939;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:177:25: note: Assuming allocation function fails
+ double* Y0_apr = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:177:25: note: Assignment 'Y0_apr=calloc(6,sizeof(double))', assigned value is 0
+ double* Y0_apr = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:183:2: note: Null pointer dereference
+ Y0_apr[5] = -7507.99940986939;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:209:3: warning: If memory allocation fails, then there is a possible null pointer dereference: Y [nullPointerOutOfMemory]
+  Y[j] = Y0_apr[j];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:206:20: note: Assuming allocation function fails
+ double* Y = calloc(6, sizeof(double));
+                   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:206:20: note: Assignment 'Y=calloc(6,sizeof(double))', assigned value is 0
+ double* Y = calloc(6, sizeof(double));
+                   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:209:3: note: Null pointer dereference
+  Y[j] = Y0_apr[j];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:289:4: warning: If memory allocation fails, then there is a possible null pointer dereference: Y_old [nullPointerOutOfMemory]
+   Y_old[j] = Y[j];
+   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:230:24: note: Assuming allocation function fails
+ double* Y_old = calloc(6,sizeof(6));
+                       ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:230:24: note: Assignment 'Y_old=calloc(6,sizeof(6))', assigned value is 0
+ double* Y_old = calloc(6,sizeof(6));
+                       ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:289:4: note: Null pointer dereference
+   Y_old[j] = Y[j];
+   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:289:15: warning: If memory allocation fails, then there is a possible null pointer dereference: Y [nullPointerOutOfMemory]
+   Y_old[j] = Y[j];
+              ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:206:20: note: Assuming allocation function fails
+ double* Y = calloc(6, sizeof(double));
+                   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:206:20: note: Assignment 'Y=calloc(6,sizeof(double))', assigned value is 0
+ double* Y = calloc(6, sizeof(double));
+                   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:289:15: note: Null pointer dereference
+   Y_old[j] = Y[j];
+              ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:303:4: warning: If memory allocation fails, then there is a possible null pointer dereference: yPhi [nullPointerOutOfMemory]
+   yPhi[ii-1] = Y_old[ii-1];
+   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:226:23: note: Assuming allocation function fails
+ double* yPhi = calloc(42,sizeof(double));
+                      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:226:23: note: Assignment 'yPhi=calloc(42,sizeof(double))', assigned value is 0
+ double* yPhi = calloc(42,sizeof(double));
+                      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:303:4: note: Null pointer dereference
+   yPhi[ii-1] = Y_old[ii-1];
+   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:303:17: warning: If memory allocation fails, then there is a possible null pointer dereference: Y_old [nullPointerOutOfMemory]
+   yPhi[ii-1] = Y_old[ii-1];
+                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:230:24: note: Assuming allocation function fails
+ double* Y_old = calloc(6,sizeof(6));
+                       ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:230:24: note: Assignment 'Y_old=calloc(6,sizeof(6))', assigned value is 0
+ double* Y_old = calloc(6,sizeof(6));
+                       ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:303:17: note: Null pointer dereference
+   yPhi[ii-1] = Y_old[ii-1];
+                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:430:2: warning: If memory allocation fails, then there is a possible null pointer dereference: Y_true [nullPointerOutOfMemory]
+ Y_true[0] = 5753.173e3;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assuming allocation function fails
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assignment 'Y_true=calloc(6,sizeof(double))', assigned value is 0
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:430:2: note: Null pointer dereference
+ Y_true[0] = 5753.173e3;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:431:2: warning: If memory allocation fails, then there is a possible null pointer dereference: Y_true [nullPointerOutOfMemory]
+ Y_true[1] = 2673.361e3;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assuming allocation function fails
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assignment 'Y_true=calloc(6,sizeof(double))', assigned value is 0
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:431:2: note: Null pointer dereference
+ Y_true[1] = 2673.361e3;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:432:2: warning: If memory allocation fails, then there is a possible null pointer dereference: Y_true [nullPointerOutOfMemory]
+ Y_true[2] = 3440.304e3;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assuming allocation function fails
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assignment 'Y_true=calloc(6,sizeof(double))', assigned value is 0
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:432:2: note: Null pointer dereference
+ Y_true[2] = 3440.304e3;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:433:2: warning: If memory allocation fails, then there is a possible null pointer dereference: Y_true [nullPointerOutOfMemory]
+ Y_true[3] = 4.324207e3;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assuming allocation function fails
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assignment 'Y_true=calloc(6,sizeof(double))', assigned value is 0
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:433:2: note: Null pointer dereference
+ Y_true[3] = 4.324207e3;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:434:2: warning: If memory allocation fails, then there is a possible null pointer dereference: Y_true [nullPointerOutOfMemory]
+ Y_true[4] = -1.924299e3;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assuming allocation function fails
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assignment 'Y_true=calloc(6,sizeof(double))', assigned value is 0
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:434:2: note: Null pointer dereference
+ Y_true[4] = -1.924299e3;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:435:2: warning: If memory allocation fails, then there is a possible null pointer dereference: Y_true [nullPointerOutOfMemory]
+ Y_true[5] = -5.728216e3;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assuming allocation function fails
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assignment 'Y_true=calloc(6,sizeof(double))', assigned value is 0
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:435:2: note: Null pointer dereference
+ Y_true[5] = -5.728216e3;
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:438:31: warning: If memory allocation fails, then there is a possible null pointer dereference: Y_true [nullPointerOutOfMemory]
+ printf("dX%10.1f [m]\n",Y[0]-Y_true[0]);
+                              ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assuming allocation function fails
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assignment 'Y_true=calloc(6,sizeof(double))', assigned value is 0
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:438:31: note: Null pointer dereference
+ printf("dX%10.1f [m]\n",Y[0]-Y_true[0]);
+                              ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:439:31: warning: If memory allocation fails, then there is a possible null pointer dereference: Y_true [nullPointerOutOfMemory]
+ printf("dY%10.1f [m]\n",Y[1]-Y_true[1]);
+                              ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assuming allocation function fails
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assignment 'Y_true=calloc(6,sizeof(double))', assigned value is 0
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:439:31: note: Null pointer dereference
+ printf("dY%10.1f [m]\n",Y[1]-Y_true[1]);
+                              ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:440:31: warning: If memory allocation fails, then there is a possible null pointer dereference: Y_true [nullPointerOutOfMemory]
+ printf("dZ%10.1f [m]\n",Y[2]-Y_true[2]);
+                              ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assuming allocation function fails
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assignment 'Y_true=calloc(6,sizeof(double))', assigned value is 0
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:440:31: note: Null pointer dereference
+ printf("dZ%10.1f [m]\n",Y[2]-Y_true[2]);
+                              ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:442:33: warning: If memory allocation fails, then there is a possible null pointer dereference: Y_true [nullPointerOutOfMemory]
+ printf("dVx%8.1f [m/s]\n",Y[3]-Y_true[3]);
+                                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assuming allocation function fails
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assignment 'Y_true=calloc(6,sizeof(double))', assigned value is 0
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:442:33: note: Null pointer dereference
+ printf("dVx%8.1f [m/s]\n",Y[3]-Y_true[3]);
+                                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:443:33: warning: If memory allocation fails, then there is a possible null pointer dereference: Y_true [nullPointerOutOfMemory]
+ printf("dVy%8.1f [m/s]\n",Y[4]-Y_true[4]);
+                                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assuming allocation function fails
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assignment 'Y_true=calloc(6,sizeof(double))', assigned value is 0
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:443:33: note: Null pointer dereference
+ printf("dVy%8.1f [m/s]\n",Y[4]-Y_true[4]);
+                                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:444:33: warning: If memory allocation fails, then there is a possible null pointer dereference: Y_true [nullPointerOutOfMemory]
+ printf("dVz%8.1f [m/s]\n",Y[5]-Y_true[5]);
+                                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assuming allocation function fails
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:429:25: note: Assignment 'Y_true=calloc(6,sizeof(double))', assigned value is 0
+ double* Y_true = calloc(6,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\main.c:444:33: note: Null pointer dereference
+ printf("dVz%8.1f [m/s]\n",Y[5]-Y_true[5]);
+                                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\mathutils.c:131:3: warning: If memory allocation fails, then there is a possible null pointer dereference: r [nullPointerOutOfMemory]
+  r[j] = yPhi[j];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\mathutils.c:127:20: note: Assuming allocation function fails
+ double *r = calloc(3, sizeof(double));
+                   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\mathutils.c:127:20: note: Assignment 'r=calloc(3,sizeof(double))', assigned value is 0
+ double *r = calloc(3, sizeof(double));
+                   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\mathutils.c:131:3: note: Null pointer dereference
+  r[j] = yPhi[j];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\mathutils.c:132:3: warning: If memory allocation fails, then there is a possible null pointer dereference: v [nullPointerOutOfMemory]
+  v[j] = yPhi[j + 3];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\mathutils.c:128:20: note: Assuming allocation function fails
+ double *v = calloc(3, sizeof(double));
+                   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\mathutils.c:128:20: note: Assignment 'v=calloc(3,sizeof(double))', assigned value is 0
+ double *v = calloc(3, sizeof(double));
+                   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\mathutils.c:132:3: note: Null pointer dereference
+  v[j] = yPhi[j + 3];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\mathutils.c:162:3: warning: If memory allocation fails, then there is a possible null pointer dereference: yPhip [nullPointerOutOfMemory]
+  yPhip[j] = v[j];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\mathutils.c:144:24: note: Assuming allocation function fails
+ double *yPhip = calloc(42, sizeof(double));
+                       ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\mathutils.c:144:24: note: Assignment 'yPhip=calloc(42,sizeof(double))', assigned value is 0
+ double *yPhip = calloc(42, sizeof(double));
+                       ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\mathutils.c:162:3: note: Null pointer dereference
+  yPhip[j] = v[j];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\mathutils.c:163:3: warning: If memory allocation fails, then there is a possible null pointer dereference: yPhip [nullPointerOutOfMemory]
+  yPhip[j+3] = a[j];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\mathutils.c:144:24: note: Assuming allocation function fails
+ double *yPhip = calloc(42, sizeof(double));
+                       ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\mathutils.c:144:24: note: Assignment 'yPhip=calloc(42,sizeof(double))', assigned value is 0
+ double *yPhip = calloc(42, sizeof(double));
+                       ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\mathutils.c:163:3: note: Null pointer dereference
+  yPhip[j+3] = a[j];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:122:3: warning: If memory allocation fails, then there is a possible null pointer dereference: prod [nullPointerOutOfMemory]
+  prod[i] = k*v[i];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:119:32: note: Assuming allocation function fails
+ double* prod = (double*)calloc(n,sizeof(double));
+                               ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:119:17: note: Assignment 'prod=(double*)calloc(n,sizeof(double))', assigned value is 0
+ double* prod = (double*)calloc(n,sizeof(double));
+                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:122:3: note: Null pointer dereference
+  prod[i] = k*v[i];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:161:3: warning: If memory allocation fails, then there is a possible null pointer dereference: f [nullPointerOutOfMemory]
+  f[i] = A[i][nFila];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:158:20: note: Assuming allocation function fails
+ double* f = calloc(nColumnas, sizeof(double));
+                   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:158:20: note: Assignment 'f=calloc(nColumnas,sizeof(double))', assigned value is 0
+ double* f = calloc(nColumnas, sizeof(double));
+                   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:161:3: note: Null pointer dereference
+  f[i] = A[i][nFila];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:180:4: warning: If memory allocation fails, then there is a possible null pointer dereference: old_f1 [nullPointerOutOfMemory]
+   old_f1[j] = f1[j];
+   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:176:25: note: Assuming allocation function fails
+ double* old_f1 = calloc(3,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:176:25: note: Assignment 'old_f1=calloc(3,sizeof(double))', assigned value is 0
+ double* old_f1 = calloc(3,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:180:4: note: Null pointer dereference
+   old_f1[j] = f1[j];
+   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:180:16: warning: If memory allocation fails, then there is a possible null pointer dereference: f1 [nullPointerOutOfMemory]
+   old_f1[j] = f1[j];
+               ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assuming allocation function fails
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assignment 'f1=calloc(3,sizeof(double))', assigned value is 0
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:180:16: note: Null pointer dereference
+   old_f1[j] = f1[j];
+               ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:181:4: warning: If memory allocation fails, then there is a possible null pointer dereference: f1 [nullPointerOutOfMemory]
+   f1[j] = 2*tau*f1[j]-f2[j];
+   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assuming allocation function fails
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assignment 'f1=calloc(3,sizeof(double))', assigned value is 0
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:181:4: note: Null pointer dereference
+   f1[j] = 2*tau*f1[j]-f2[j];
+   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:181:18: warning: If memory allocation fails, then there is a possible null pointer dereference: f1 [nullPointerOutOfMemory]
+   f1[j] = 2*tau*f1[j]-f2[j];
+                 ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assuming allocation function fails
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assignment 'f1=calloc(3,sizeof(double))', assigned value is 0
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:181:18: note: Null pointer dereference
+   f1[j] = 2*tau*f1[j]-f2[j];
+                 ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:181:24: warning: If memory allocation fails, then there is a possible null pointer dereference: f2 [nullPointerOutOfMemory]
+   f1[j] = 2*tau*f1[j]-f2[j];
+                       ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:175:21: note: Assuming allocation function fails
+ double* f2 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:175:21: note: Assignment 'f2=calloc(3,sizeof(double))', assigned value is 0
+ double* f2 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:181:24: note: Null pointer dereference
+   f1[j] = 2*tau*f1[j]-f2[j];
+                       ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:182:4: warning: If memory allocation fails, then there is a possible null pointer dereference: f2 [nullPointerOutOfMemory]
+   f2[j] = old_f1[j];
+   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:175:21: note: Assuming allocation function fails
+ double* f2 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:175:21: note: Assignment 'f2=calloc(3,sizeof(double))', assigned value is 0
+ double* f2 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:182:4: note: Null pointer dereference
+   f2[j] = old_f1[j];
+   ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:182:12: warning: If memory allocation fails, then there is a possible null pointer dereference: old_f1 [nullPointerOutOfMemory]
+   f2[j] = old_f1[j];
+           ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:176:25: note: Assuming allocation function fails
+ double* old_f1 = calloc(3,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:176:25: note: Assignment 'old_f1=calloc(3,sizeof(double))', assigned value is 0
+ double* old_f1 = calloc(3,sizeof(double));
+                        ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:182:12: note: Null pointer dereference
+   f2[j] = old_f1[j];
+           ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:184:3: warning: If memory allocation fails, then there is a possible null pointer dereference: f1 [nullPointerOutOfMemory]
+  f1[0] += Cx[i-1];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assuming allocation function fails
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assignment 'f1=calloc(3,sizeof(double))', assigned value is 0
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:184:3: note: Null pointer dereference
+  f1[0] += Cx[i-1];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:185:3: warning: If memory allocation fails, then there is a possible null pointer dereference: f1 [nullPointerOutOfMemory]
+  f1[1] += Cy[i-1];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assuming allocation function fails
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assignment 'f1=calloc(3,sizeof(double))', assigned value is 0
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:185:3: note: Null pointer dereference
+  f1[1] += Cy[i-1];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:186:3: warning: If memory allocation fails, then there is a possible null pointer dereference: f1 [nullPointerOutOfMemory]
+  f1[2] += Cz[i-1];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assuming allocation function fails
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assignment 'f1=calloc(3,sizeof(double))', assigned value is 0
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:186:3: note: Null pointer dereference
+  f1[2] += Cz[i-1];
+  ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:191:2: warning: If memory allocation fails, then there is a possible null pointer dereference: ChebRet [nullPointerOutOfMemory]
+ ChebRet[0]=tau*f1[0]-f2[0]+Cx[0];
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:189:26: note: Assuming allocation function fails
+ double* ChebRet = calloc(3,sizeof(double));
+                         ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:189:26: note: Assignment 'ChebRet=calloc(3,sizeof(double))', assigned value is 0
+ double* ChebRet = calloc(3,sizeof(double));
+                         ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:191:2: note: Null pointer dereference
+ ChebRet[0]=tau*f1[0]-f2[0]+Cx[0];
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:191:17: warning: If memory allocation fails, then there is a possible null pointer dereference: f1 [nullPointerOutOfMemory]
+ ChebRet[0]=tau*f1[0]-f2[0]+Cx[0];
+                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assuming allocation function fails
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assignment 'f1=calloc(3,sizeof(double))', assigned value is 0
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:191:17: note: Null pointer dereference
+ ChebRet[0]=tau*f1[0]-f2[0]+Cx[0];
+                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:191:23: warning: If memory allocation fails, then there is a possible null pointer dereference: f2 [nullPointerOutOfMemory]
+ ChebRet[0]=tau*f1[0]-f2[0]+Cx[0];
+                      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:175:21: note: Assuming allocation function fails
+ double* f2 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:175:21: note: Assignment 'f2=calloc(3,sizeof(double))', assigned value is 0
+ double* f2 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:191:23: note: Null pointer dereference
+ ChebRet[0]=tau*f1[0]-f2[0]+Cx[0];
+                      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:192:2: warning: If memory allocation fails, then there is a possible null pointer dereference: ChebRet [nullPointerOutOfMemory]
+ ChebRet[1]=tau*f1[1]-f2[1]+Cy[0];
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:189:26: note: Assuming allocation function fails
+ double* ChebRet = calloc(3,sizeof(double));
+                         ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:189:26: note: Assignment 'ChebRet=calloc(3,sizeof(double))', assigned value is 0
+ double* ChebRet = calloc(3,sizeof(double));
+                         ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:192:2: note: Null pointer dereference
+ ChebRet[1]=tau*f1[1]-f2[1]+Cy[0];
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:192:17: warning: If memory allocation fails, then there is a possible null pointer dereference: f1 [nullPointerOutOfMemory]
+ ChebRet[1]=tau*f1[1]-f2[1]+Cy[0];
+                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assuming allocation function fails
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assignment 'f1=calloc(3,sizeof(double))', assigned value is 0
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:192:17: note: Null pointer dereference
+ ChebRet[1]=tau*f1[1]-f2[1]+Cy[0];
+                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:192:23: warning: If memory allocation fails, then there is a possible null pointer dereference: f2 [nullPointerOutOfMemory]
+ ChebRet[1]=tau*f1[1]-f2[1]+Cy[0];
+                      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:175:21: note: Assuming allocation function fails
+ double* f2 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:175:21: note: Assignment 'f2=calloc(3,sizeof(double))', assigned value is 0
+ double* f2 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:192:23: note: Null pointer dereference
+ ChebRet[1]=tau*f1[1]-f2[1]+Cy[0];
+                      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:193:2: warning: If memory allocation fails, then there is a possible null pointer dereference: ChebRet [nullPointerOutOfMemory]
+ ChebRet[2]=tau*f1[2]-f2[2]+Cz[0];
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:189:26: note: Assuming allocation function fails
+ double* ChebRet = calloc(3,sizeof(double));
+                         ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:189:26: note: Assignment 'ChebRet=calloc(3,sizeof(double))', assigned value is 0
+ double* ChebRet = calloc(3,sizeof(double));
+                         ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:193:2: note: Null pointer dereference
+ ChebRet[2]=tau*f1[2]-f2[2]+Cz[0];
+ ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:193:17: warning: If memory allocation fails, then there is a possible null pointer dereference: f1 [nullPointerOutOfMemory]
+ ChebRet[2]=tau*f1[2]-f2[2]+Cz[0];
+                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assuming allocation function fails
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:174:21: note: Assignment 'f1=calloc(3,sizeof(double))', assigned value is 0
+ double* f1 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:193:17: note: Null pointer dereference
+ ChebRet[2]=tau*f1[2]-f2[2]+Cz[0];
+                ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:193:23: warning: If memory allocation fails, then there is a possible null pointer dereference: f2 [nullPointerOutOfMemory]
+ ChebRet[2]=tau*f1[2]-f2[2]+Cz[0];
+                      ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:175:21: note: Assuming allocation function fails
+ double* f2 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:175:21: note: Assignment 'f2=calloc(3,sizeof(double))', assigned value is 0
+ double* f2 = calloc(3,sizeof(double));
+                    ^
+C:\Users\dianguas\Desktop\Practica_4\an-lisis-est-tico-integrador-dianguas\matutils.c:193:23: note: Null pointer dereference
+ ChebRet[2]=tau*f1[2]-f2[2]+Cz[0];
+                      ^
